@@ -20,7 +20,7 @@ body {
     color: #E8EAE3;
 }
 
-.title{
+.title-class{
     color: #E8EAE3;
 }
 
@@ -57,13 +57,23 @@ body {
 
 }
 
+.contact-info{
+    display: flex; 
+    flex-direction: row;
+}
+
 
 .skills{
     color: #E8EAE3;
     margin-bottom: 10px;
     text-align: center;
 }
+.skills-text{
+    text-align: center; 
+    color: #E8EAE3;
 
+
+}
 .container{
     position: relative;
     max-width: 500px;
