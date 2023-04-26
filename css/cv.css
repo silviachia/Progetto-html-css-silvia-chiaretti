@@ -1,0 +1,153 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style:circle;
+    font-family: "Poppins";
+
+}
+
+body {
+    background-color: #E8EAE3;
+}
+
+.contact{
+    color: #E8EAE3;
+    margin-bottom: 20px;
+}
+
+.text-color{
+    color: #E8EAE3;
+}
+
+.title{
+    color: #E8EAE3;
+}
+
+
+.profile {
+    width: 100%;
+    border-bottom: 1px solid #E8EAE3;
+    background-color: #FA2742;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.profile img {
+    width: 70%;
+    border-radius: 50%;
+    border: 8px solid;
+    border-color: #E8EAE3;
+}
+
+.profile p{
+    color: #E8EAE3;
+}
+
+
+.name {
+    font-size: 2rem;
+    color: #E8EAE3;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding: 1.2rem 0;
+    border-bottom: 1px solid;
+
+}
+
+
+.skills{
+    color: #E8EAE3;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.container{
+    position: relative;
+    max-width: 500px;
+    width: 100%;
+    background:none;
+    margin: 0 15px;
+    padding: 10px 10px;
+    border-radius: 7px;
+}
+.container .skill-box{
+    width: 100%;
+    margin: 25px 0;
+}
+.skill-box .title{
+    display: block;
+    font-size: 14px;
+    font-weight: 600;
+    color: #333;
+}
+.skill-box .skill-bar{
+    height: 8px;
+    width: 100%;
+    border-radius: 6px;
+    margin-top: 6px;
+    background: rgba(0,0,0,0.1);
+}
+.skill-bar .skill-per{
+    position: relative;
+    display: block;
+    height: 100%;
+    width: 90%;
+    border-radius: 6px;
+    background: #E8EAE3;
+    animation: progress 0.4s ease-in-out forwards;
+    opacity: 0;
+}
+
+
+.skill-per .bootstrap{
+    animation-delay: 0.1s;
+   }
+
+.skill-per .illustrator{
+    animation-delay: 0.2s;
+}
+.skill-per .photoshop{
+
+    animation-delay: 0.3s;
+}
+
+
+@keyframes progress {
+    0%{
+        width: 0;
+        opacity: 1;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+
+
+.navbar-site {
+    background-color: #dee0d8de;
+}
+
+.navbar .navbar-brand {
+    color: #FA2742 !important;
+    font-weight: bold;
+}
+
+.nav-item .nav-link:hover {
+    color: #FA2742 !important;
+}
+
+.nav-item{
+    list-style:none !important;
+
+}
+
+.curriculum-container{
+    background-color: #E8EAE3;
+    margin-top: 20px;
+    padding-top: 0px !important;
+}
+
